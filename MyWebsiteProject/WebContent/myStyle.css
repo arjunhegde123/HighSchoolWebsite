@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+
+body
+	{
+		background-color:#e0dedc /*#C0C0C0/*/;
+	}
+.common
+	{
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+.bimg
+	{
+		background-image: url("images/NovaScotia.JPG");
+		
+		
+	}
+.bimg1
+	{
+		background-image: url("images/ChicagoClout.JPG");
+		/* overflow: hidden;*/
+	}
+
+h1
+	{
+		text-align: center;
+		border-style: solid;
+		border-left-width:0px;
+		border-right-width:0px;
+		border-top-width:5px;
+		border-bottom-width:5px;
+		border-color:black;
+		font-family: "Helvetica Neue", Trebuchet MS, Verdana, serif;
+		font-size: 2.4em;
+	}
+
+.WelcomeText
+	{
+		text-align: center;
+		font-family: Rockwell;
+		font-size: 4em;
+		color: #9e2126;
+		padding: 0% 0% 0% 36%;
+	}
+
+#Welcome
+	{
+		background-color: Tomato;
+	}
+
+.titleborder
+	{
+		text-align: center;
+	}
+
+ul 
+	{
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    overflow: hidden;
+	    background-color: /*#cca683*/#9e2126 /*#7E212B*/;
+	    /*NavBar made with help from W3Schools:https://www.w3schools.com/css/css_navbar.asp*/ 
+	}
+li 
+	{
+	    float: left;
+	    /*NavBar made with help from W3Schools:https://www.w3schools.com/css/css_navbar.asp*/ 
+	}
+li a, .dropbtn
+	{
+	    display: inline-block;
+	    color: white;
+	    text-align: center;
+	    padding: 14px 16px;
+	    text-decoration:none;
+	    font-family: "Helvetica Neue", Trebuchet, Verdana, serif;
+	    /*NavBar made with help from W3Schools:https://www.w3schools.com/css/css_navbar.asp*/  
+	}
+li a:hover, .dropdown:hover .dropbtn
+	{
+	    background-color: #111;
+	    /*NavBar made with help from W3Schools:https://www.w3schools.com/css/css_navbar.asp*/ 
+	}
+li.dropdown 
+	{
+	    display: inline-block;
+	    /*NavBar made with help from W3Schools:https://www.w3schools.com/css/css_navbar.asp*/ 
+	}
+.dropdown-content 
+	{
+	    display: none;
+	    position: absolute;
+	    background-color: #f9f9f9;
+	    min-width: 160px;
+	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	    z-index: 1;
+	    /*NavBar made with help from W3Schools:https://www.w3schools.com/css/css_navbar.asp*/ 
+	}
+.dropdown-content a
+	{
+	    color: black;
+	    padding: 12px 16px;
+	    text-decoration: none;
+	    display: block;
+	    text-align: left;
+	    /*NavBar made with help from W3Schools:https://www.w3schools.com/css/css_navbar.asp*/ 
+	}
+.dropdown-content a:hover {background-color: #f1f1f1} /*NavBar made with help from W3Schools:https://www.w3schools.com/css/css_navbar.asp*/ 
+
+.dropdown:hover .dropdown-content 
+	{
+	    display: block;
+	    /*NavBar made with help from W3Schools:https://www.w3schools.com/css/css_navbar.asp*/ 
+	}
+
+h2
+	{
+		text-align: center;
+		font-family: "Helvetica Neue", Trebuchet, Verdana, serif;
+		font-size: 2em;
+	}
+	
+h3
+	{
+		text-align: center;
+		font-family: "Helvetica Neue", Trebuchet, Verdana, serif;
+		font-size: 1.5em;
+	}
+
+.center
+	{
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    width: 50%;
+	    /* Centering Images made possible with help from W3Schools: https://www.w3schools.com/howto/howto_css_image_center.asp*/
+	}
+
+p
+	{
+		padding: 0% 12.5% 0% 12.5%;
+		text-align: center;
+		color: black;
+		font-family: "Helvetica Neue", Trebuchet, Verdana, serif;
+		font-size: 1.5em;
+		/*background-color: #83A99C#e0dedc;*/
+		/*border-style: solid;*/
+		/*border-width: 5px;*/
+		/*border-color:tomato;*/
+	}
+
+borderp
+	{
+		border-style: solid;
+		border-width: 5px;
+		border-color:black;
+	}
+
+.greyfill
+	{
+		background-color:#e0dedc;
+		padding: 0% 12.5% 0% 12.5%;
+	}
